@@ -1,0 +1,159 @@
+@import "tailwindcss";
+
+@theme {
+  --color-surface: #fff8f5;
+  --color-surface-dim: #ffd1b5;
+  --color-surface-bright: #fff8f5;
+  --color-surface-container-lowest: #ffffff;
+  --color-surface-container-low: #fff1ea;
+  --color-surface-container: #ffeadf;
+  --color-surface-container-high: #ffe3d3;
+  --color-surface-container-highest: #ffdbc7;
+  --color-on-surface: #301401;
+  --color-on-surface-variant: #524347;
+  --color-inverse-surface: #4a2810;
+  --color-inverse-on-surface: #ffede4;
+  --color-outline: #847377;
+  --color-outline-variant: #d6c1c6;
+  --color-surface-tint: #8c4963;
+  --color-primary: #8c4963;
+  --color-on-primary: #ffffff;
+  --color-primary-container: #f8a5c2;
+  --color-on-primary-container: #763750;
+  --color-inverse-primary: #ffb0cb;
+  --color-secondary: #b12500;
+  --color-on-secondary: #ffffff;
+  --color-secondary-container: #da370d;
+  --color-on-secondary-container: #fffbff;
+  --color-tertiary: #765a23;
+  --color-on-tertiary: #ffffff;
+  --color-tertiary-container: #ddb878;
+  --color-on-tertiary-container: #624812;
+  --color-error: #ba1a1a;
+  --color-on-error: #ffffff;
+  --color-error-container: #ffdad6;
+  --color-on-error-container: #93000a;
+  --color-primary-fixed: #ffd9e4;
+  --color-primary-fixed-dim: #ffb0cb;
+  --color-on-primary-fixed: #3a061f;
+  --color-on-primary-fixed-variant: #70324b;
+  --color-secondary-fixed: #ffdad2;
+  --color-secondary-fixed-dim: #ffb4a3;
+  --color-on-secondary-fixed: #3d0700;
+  --color-on-secondary-fixed-variant: #8a1b00;
+  --color-tertiary-fixed: #ffdea8;
+  --color-tertiary-fixed-dim: #e7c180;
+  --color-on-tertiary-fixed: #271900;
+  --color-on-tertiary-fixed-variant: #5c420c;
+  --color-background: #fff8f5;
+  --color-on-background: #301401;
+  --color-surface-variant: #ffdbc7;
+
+  --font-headline: 'Comfortaa', cursive, sans-serif;
+  --font-display: 'Comfortaa', cursive, sans-serif;
+  --font-body: 'Quicksand', sans-serif;
+  --font-label: 'Quicksand', sans-serif;
+}
+
+body {
+  font-family: 'Quicksand', sans-serif;
+  color: #301401;
+  background-color: #fff8f5;
+}
+
+h1, h2, h3, h4, h5, h6, .font-headline {
+  font-family: 'Comfortaa', cursive, sans-serif;
+}
+
+.font-display-lg {
+  font-family: 'Comfortaa', cursive, sans-serif;
+  font-size: 2.75rem;
+  line-height: 1.15;
+  font-weight: 700;
+}
+
+.font-headline-lg {
+  font-family: 'Comfortaa', cursive, sans-serif;
+  font-size: 2rem;
+  line-height: 1.25;
+  font-weight: 700;
+}
+
+.font-headline-md {
+  font-family: 'Comfortaa', cursive, sans-serif;
+  font-size: 1.5rem;
+  line-height: 1.3;
+  font-weight: 600;
+}
+
+.font-headline-sm {
+  font-family: 'Comfortaa', cursive, sans-serif;
+  font-size: 1.25rem;
+  line-height: 1.4;
+  font-weight: 600;
+}
+
+.font-body-lg {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 1.125rem;
+  line-height: 1.6;
+  font-weight: 500;
+}
+
+.font-body-md {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
+  font-weight: 500;
+}
+
+.font-body-sm {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 0.875rem;
+  line-height: 1.4;
+  font-weight: 500;
+}
+
+.font-label-lg {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 0.9375rem;
+  font-weight: 700;
+}
+
+.font-label-md {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 0.8125rem;
+  font-weight: 700;
+}
+
+.font-label-sm {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 0.6875rem;
+  font-weight: 700;
+}
+
+.material-symbols-outlined {
+  font-family: 'Material Symbols Outlined';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -webkit-font-feature-settings: 'liga';
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Custom scrollbar hiding */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+

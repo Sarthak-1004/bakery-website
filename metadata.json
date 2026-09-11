@@ -1,0 +1,6 @@
+{
+  "name": "Sarthak Bakery",
+  "description": "Handcrafted artisanal cakes, fresh morning pastries, custom celebrations, order tracking, and live kitchen dashboard.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
